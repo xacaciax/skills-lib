@@ -107,6 +107,20 @@ Flag the few items you think are the strongest raw material for the piece.
 Keep it tight — a useful index surfaces the signal, it doesn't transcribe
 everything.
 
+**Flag conflicts, don't resolve them silently.** Research routinely turns up
+facts that disagree — the seed says 200 students, a doc says 800; one source
+calls the product by an old name, another by its rename; two places give
+different headline metrics. When a source contradicts the user's own draft or
+another source on something that will appear in the piece (numbers, names,
+dates, claims), surface it explicitly in the index as a conflict: show both
+values, name where each came from, and ask the user which is canonical rather
+than quietly picking one. This matters because the user is the only one who
+knows which version is true, and a confidently-stated wrong number in a
+portfolio piece is worse than no number — it's the kind of thing a reader (or
+interviewer) catches. If you must draft before the user has arbitrated, write
+around the conflict with softer phrasing and mark it, rather than committing to
+a figure you can't stand behind.
+
 ### 4. Sketch three outline variations — then STOP
 
 Propose **three distinct high-level outlines** for the piece, in chat. These are
@@ -166,5 +180,10 @@ Let the type steer emphasis, not a rigid template:
 - Ground claims in what you actually found. If the research doesn't support a
   flattering framing, tell the user rather than inventing detail — a portfolio
   piece that overstates is worse than one that's modest and true.
+- Grounding a story in concrete scale and scope — real numbers, dates, named
+  partners — is usually what separates a memorable piece from a vague one, so
+  actively look for those figures during research and work them in. But every
+  number must trace to a source, and any that conflict must be arbitrated by the
+  user first (see phase 3).
 - Respect that this is the user's personal work and voice. You're surfacing
   their story and giving them options, not authoring their reputation for them.
