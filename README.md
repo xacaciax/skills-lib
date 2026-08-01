@@ -1,8 +1,33 @@
 # Personal Pi Skills Library
 
-Custom skills for the [pi coding agent](https://github.com/earendil-works/pi-coding-agent) to automate job search research and outreach.
+Custom skills for the [pi coding agent](https://github.com/earendil-works/pi-coding-agent) to automate job search research, outreach, and resume optimization.
 
 ## Skills
+
+### ✨ resume-bullet-optimizer
+Transform weak resume bullets into 5 sharp, MAANG-optimized variations grounded in real evidence from your Slack, Notion, and GitHub activity. Automatically researches your actual work to quantify impact and scope.
+
+**Usage:**
+Just paste your bullets in conversation and ask to improve them:
+```
+Improve these resume bullets:
+- Built API service
+- Improved performance
+```
+
+Or be specific:
+```
+Make these bullets stronger for a Google application:
+- Led migration to microservices
+```
+
+**Requirements:**
+- Connected Slack workspace (for launch announcements, metrics, kudos)
+- Connected Notion workspace (for PRDs, retros, OKRs)
+- Connected GitHub account (for PR/commit verification)
+
+**Output:**
+For each bullet, you get 5 variations: impact-led, scale-led, ownership-led, technical-depth-led, and concise. Pick what fits your story.
 
 ### 🔍 company-research
 Research companies using Brave Search API. Pulls company overview, recent news, tech stack, funding info, and key people.
@@ -56,7 +81,7 @@ pi skill install github.com/anthropics/skills/pdf
 cd ~/.pi/agent/skills
 git clone https://github.com/xacaciax/skills-lib.git
 cd skills-lib
-mv company-research jd-analyzer outreach-generator ..
+mv company-research jd-analyzer outreach-generator resume-bullet-optimizer ..
 ```
 
 4. Set up Brave Search API:
