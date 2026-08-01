@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Output files
+*.log
+output/
+
+# Credentials
+.env
+*.key
